@@ -49,5 +49,5 @@ RUN pip install -e . --user --no-cache-dir \
   && freqtrade install-ui
 
 ENTRYPOINT ["freqtrade"]
-# Default to trade mode
+# Default to trade mode - v2
 CMD [ "trade" ]
